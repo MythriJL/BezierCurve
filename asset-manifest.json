@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/BezierCurve/static/css/main.61c16b6e.chunk.css",
-    "main.js": "/BezierCurve/static/js/main.bf61f112.chunk.js",
-    "main.js.map": "/BezierCurve/static/js/main.bf61f112.chunk.js.map",
+    "main.js": "/BezierCurve/static/js/main.fa5df4cc.chunk.js",
+    "main.js.map": "/BezierCurve/static/js/main.fa5df4cc.chunk.js.map",
     "runtime-main.js": "/BezierCurve/static/js/runtime-main.1e27bdba.js",
     "runtime-main.js.map": "/BezierCurve/static/js/runtime-main.1e27bdba.js.map",
     "static/css/2.ef9168ec.chunk.css": "/BezierCurve/static/css/2.ef9168ec.chunk.css",
-    "static/js/2.a6fff17b.chunk.js": "/BezierCurve/static/js/2.a6fff17b.chunk.js",
-    "static/js/2.a6fff17b.chunk.js.map": "/BezierCurve/static/js/2.a6fff17b.chunk.js.map",
+    "static/js/2.e9274662.chunk.js": "/BezierCurve/static/js/2.e9274662.chunk.js",
+    "static/js/2.e9274662.chunk.js.map": "/BezierCurve/static/js/2.e9274662.chunk.js.map",
     "static/js/3.915b4da7.chunk.js": "/BezierCurve/static/js/3.915b4da7.chunk.js",
     "static/js/3.915b4da7.chunk.js.map": "/BezierCurve/static/js/3.915b4da7.chunk.js.map",
     "index.html": "/BezierCurve/index.html",
     "static/css/2.ef9168ec.chunk.css.map": "/BezierCurve/static/css/2.ef9168ec.chunk.css.map",
     "static/css/main.61c16b6e.chunk.css.map": "/BezierCurve/static/css/main.61c16b6e.chunk.css.map",
-    "static/js/2.a6fff17b.chunk.js.LICENSE.txt": "/BezierCurve/static/js/2.a6fff17b.chunk.js.LICENSE.txt"
+    "static/js/2.e9274662.chunk.js.LICENSE.txt": "/BezierCurve/static/js/2.e9274662.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.1e27bdba.js",
     "static/css/2.ef9168ec.chunk.css",
-    "static/js/2.a6fff17b.chunk.js",
+    "static/js/2.e9274662.chunk.js",
     "static/css/main.61c16b6e.chunk.css",
-    "static/js/main.bf61f112.chunk.js"
+    "static/js/main.fa5df4cc.chunk.js"
   ]
 }
