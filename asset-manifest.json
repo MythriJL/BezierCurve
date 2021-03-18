@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/BezierCurve/static/css/main.c9afdc94.chunk.css",
-    "main.js": "/BezierCurve/static/js/main.3bd999fd.chunk.js",
-    "main.js.map": "/BezierCurve/static/js/main.3bd999fd.chunk.js.map",
+    "main.js": "/BezierCurve/static/js/main.a51d75a8.chunk.js",
+    "main.js.map": "/BezierCurve/static/js/main.a51d75a8.chunk.js.map",
     "runtime-main.js": "/BezierCurve/static/js/runtime-main.1e27bdba.js",
     "runtime-main.js.map": "/BezierCurve/static/js/runtime-main.1e27bdba.js.map",
     "static/css/2.ef9168ec.chunk.css": "/BezierCurve/static/css/2.ef9168ec.chunk.css",
@@ -20,6 +20,6 @@
     "static/css/2.ef9168ec.chunk.css",
     "static/js/2.75c20dfa.chunk.js",
     "static/css/main.c9afdc94.chunk.css",
-    "static/js/main.3bd999fd.chunk.js"
+    "static/js/main.a51d75a8.chunk.js"
   ]
 }
