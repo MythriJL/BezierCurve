@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+.navbarcss{
+  background: black;
+  height:1000x;
+  }
+  .body-section {
+    margin-top: 12vh;
+    height: 78vh;
+  }
+  .foot{
+    background-color: #000;
+    text-align: center;
+    color: white;
+    height: 10vh;
+    padding: 1rem;
+  }
