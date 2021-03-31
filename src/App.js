@@ -1,61 +1,49 @@
-import React from 'react';
-
+import React, { Component } from 'react';
 import './App.css';
+import { HashRouter, Route, Link } from "react-router-dom";
 
 import 'bootstrap/dist/css/bootstrap.css';
 
-import {
-	BrowserRouter as Router,
-	Switch,
-	Route,
-} from "react-router-dom";
+import { Navbar, Nav } from "react-bootstrap"
+import Home from './routes/quadrticBezierCurve/index';
+import Cubic from './routes/cubicBezierCurve/index';
+class App extends Component {
+	render() {
+		return (
+			<HashRouter basename="/">
+				<div>
+					<Navbar className="navbarcss" fixed="top" expand="lg" variant="dark">
 
-import { Navbar, Nav} from "react-bootstrap"
+						<Navbar.Brand href="/">TEAM 1</Navbar.Brand>
+						<Navbar.Toggle aria-controls="basic-navbar-nav" />
+						<Navbar.Collapse id="basic-navbar-nav">
 
-import Quadratic from './routes/quadrticBezierCurve'
-import Cubic from './routes/cubicBezierCurve'
-function App() {
-	return(
-	<Router>
-		<Navbar className="navbarcss" fixed="top" expand="lg" variant="dark">
+							<Nav className="mr-auto">
 
-			<Navbar.Brand href="/">TEAM 1</Navbar.Brand>
-			<Navbar.Toggle aria-controls="basic-navbar-nav" />
-			<Navbar.Collapse id="basic-navbar-nav">
+								<Link className="linkText" to="/">Quadratic</Link>
+								<Link className="linkText" to="/about">Cubic</Link>
+							</Nav>
+						</Navbar.Collapse>
+					</Navbar>
 
-				<Nav className="mr-auto">
+					<hr />
+					<div className='body-section'>
+						<Route exact path="/" component={Home} />
+						<Route path="/about" component={Cubic} />
+					</div>
+					<div className="foot">
 
-					<Nav.Link href="/">Quadratic</Nav.Link>
-					<Nav.Link href="/cubic">Cubic</Nav.Link>
-				</Nav>
-			</Navbar.Collapse>
-		</Navbar>
+						<text>Copyright © 2021 DSU Computer Graphics Mini Project.</text>
 
+					</div>
+				</div>
 
-		<div className='body-section'>
-
-			<Switch>
-			<Route path="/cubic">
-					<Cubic />
-				</Route>
-				<Route path="/">
-					<Quadratic />
-				</Route>
-
-			</Switch>
-
-		</div>
-
-		<div className="foot">
-
-			<h5>Copyright © 2021 DSU Computer Graphics Mini Project.</h5>
-
-		</div>
-
-
-	</Router>
-	);
-
+			</HashRouter>
+		);
+	}
 }
+
+
+
 
 export default App;

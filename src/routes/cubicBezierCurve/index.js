@@ -4,7 +4,7 @@ import './index.css'
 class Cubic extends React.Component {
     constructor(props) {
         super(props);
-        this.state = { xIndex: 0, yIndex: 0 };
+        this.state = { xIndex: 200, yIndex: 200 };
     }
 
 
@@ -16,18 +16,26 @@ class Cubic extends React.Component {
 
     render() {
         const { xIndex, yIndex } = this.state;
-       
-        const rectangle = (
-            <rect
-                x={xIndex} y={yIndex}
-                width={30} height={65}
-                fill="lightsalmon"
+        const startPoint = [0, 0];
+          
+        const controlPoint1 = [100,50];
+        const controlPoint2 = [25,75];
+        const endPoint = [xIndex, yIndex];
+        const path = (
+            <path
+              d={`
+                M ${startPoint}
+                C ${controlPoint1} ${controlPoint2} ${endPoint}
+                // C 0,125 300,150 0,175
+              `}
+              fill="none"
+              stroke="white"
+              strokeWidth={5}
             />
-        );
+          )
 
         return <div className="container" onClick={this._onMouseMove.bind(this)}>
 
-            {/* <h1>{xIndex} {yIndex}</h1><br /> */}
             <svg
                 style={{
                     background: '#000',
@@ -36,7 +44,7 @@ class Cubic extends React.Component {
                 }}
 
             >
-                {rectangle}
+                {path}
 
             </svg>
         </div>;

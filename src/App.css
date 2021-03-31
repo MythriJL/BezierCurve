@@ -42,12 +42,18 @@
   }
   .body-section {
     margin-top: 12vh;
-    height: 78vh;
+    height: 79vh;
+  }
+  .linkText{
+    color: white;
+    padding-right: 5vh;
+  
   }
   .foot{
     background-color: #000;
     text-align: center;
     color: white;
-    height: 10vh;
     padding: 1rem;
+    font-size: 2vh;
+ 
   }
