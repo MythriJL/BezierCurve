@@ -26,7 +26,7 @@ class Cubic extends React.Component {
               d={`
                 M ${startPoint}
                 C ${controlPoint1} ${controlPoint2} ${endPoint}
-                // C 0,125 300,150 0,175
+                
               `}
               fill="none"
               stroke="white"
