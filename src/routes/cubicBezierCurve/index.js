@@ -17,8 +17,8 @@ class Cubic extends React.Component {
     render() {
         const { xIndex, yIndex } = this.state;
         const startPoint = [0, 0];
-        const controlPoint1 = [(99*xIndex)/100, 0];
-        const controlPoint2 = [xIndex/100,yIndex]
+        const controlPoint1 = [(2*xIndex)/3, 0];
+        const controlPoint2 = [xIndex/3,yIndex]
         const endPoint = [xIndex, yIndex];
         const path = (
             <path
