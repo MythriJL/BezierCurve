@@ -17,17 +17,15 @@ class Cubic extends React.Component {
     render() {
         const { xIndex, yIndex } = this.state;
         const startPoint = [0, 0];
-          
-        const controlPoint1 = [100,50];
-        const controlPoint2 = [25,75];
+        const controlPoint1 = [(99*xIndex)/100, 0];
+        const controlPoint2 = [xIndex/100,yIndex]
         const endPoint = [xIndex, yIndex];
         const path = (
             <path
-              d={`
-                M ${startPoint}
-                C ${controlPoint1} ${controlPoint2} ${endPoint}
-                
-              `}
+                d={`
+            M ${startPoint}
+            C ${controlPoint1} ${controlPoint2} ${endPoint}
+            `}
               fill="none"
               stroke="white"
               strokeWidth={5}
